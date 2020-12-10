@@ -33,7 +33,7 @@ public class IndexController {
 
     @GetMapping("login")
     public String login() {
-        return "login";
+        return "loginForm";
     }
 
     @GetMapping("join")
@@ -45,6 +45,5 @@ public class IndexController {
     public @ResponseBody String joinProc() {
         return "회원가입 완료됨";
     }
-
 
 }
